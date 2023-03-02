@@ -1,0 +1,46 @@
+.profileCon {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  height: 180px;
+  margin: 0px 10px 10px 0px;
+  padding: 10px 10px 100px 20px;
+  border-bottom-left-radius: 23px;
+  border-bottom-right-radius: 23px;
+}
+@media screen and (min-width: 768px) {
+  .profileCon {
+    margin-top: 0px;
+    width: 300px;
+    border-bottom-left-radius: 17px;
+    border-bottom-right-radius: 17px;
+  }
+}
+.userProfileAvatar {
+  height: 40px;
+  width: 40px;
+  color: #6366f1;
+}
+.profileHeading {
+  color: #6366f1;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+.profileProfession {
+  color: #64748b;
+  font-weight: 500;
+  font-family: 'Roboto';
+  padding-bottom: 20px;
+}
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.retryBtn {
+  background-color: #4f46e5;
+  border: 0px;
+  padding: 5px;
+  font-family: 'Roboto';
+  border-radius: 3px;
+  color: white;
+}
